@@ -82,7 +82,12 @@ run_commands(2,2,10,10);
 run_commands(2,2,11,10);
 run_commands(2,2,12,10);
 
-
+print("DIFFERENT RARE FREQUENCY\n");
+run_commands(2,2,10,8);
+run_commands(2,2,10,9);
+run_commands(2,2,10,10);
+run_commands(2,2,10,11);
+run_commands(2,2,10,12);
 
 
 
