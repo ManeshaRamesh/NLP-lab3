@@ -1,0 +1,42 @@
+EX1:
+
+For corpus of 40000 lines
+  Labeled   attachment score: 31244 / 35324 * 100 = 88.45 %
+  Unlabeled attachment score: 31894 / 35324 * 100 = 90.29 %
+  Label accuracy score:       32891 / 35324 * 100 = 93.11 %
+For corpus of 4000 lines
+  Labeled   attachment score: 30013 / 35324 * 100 = 84.96 %
+  Unlabeled attachment score: 30800 / 35324 * 100 = 87.19 %
+  Label accuracy score:       32105 / 35324 * 100 = 90.89 %
+For corpus of 400 lines
+  Labeled   attachment score: 27237 / 35324 * 100 = 77.11 %
+  Unlabeled attachment score: 28397 / 35324 * 100 = 80.39 %
+  Label accuracy score:       30139 / 35324 * 100 = 85.32 %
+For corpus of 40 lines
+  Labeled   attachment score: 22603 / 35324 * 100 = 63.99 %
+  Unlabeled attachment score: 24072 / 35324 * 100 = 68.15 %
+  Label accuracy score:       26897 / 35324 * 100 = 76.14 %
+For corpus of 4 lines
+  Labeled   attachment score: 13278 / 35324 * 100 = 37.59 %
+  Unlabeled attachment score: 14925 / 35324 * 100 = 42.25 %
+  Label accuracy score:       18983 / 35324 * 100 = 53.74 %
+
+EX2
+
+
+Performance of Nivrestandard:
+  Labeled   attachment score: 31330 / 35324 * 100 = 88.69 %
+  Unlabeled attachment score: 31979 / 35324 * 100 = 90.53 %
+  Label accuracy score:       32975 / 35324 * 100 = 93.35 %
+Performance of Stackeager:
+  Labeled   attachment score: 31327 / 35324 * 100 = 88.68 %
+  Unlabeled attachment score: 31981 / 35324 * 100 = 90.54 %
+  Label accuracy score:       32963 / 35324 * 100 = 93.32 %
+Performance of Stacklazy:
+  Labeled   attachment score: 31327 / 35324 * 100 = 88.68 %
+  Unlabeled attachment score: 31981 / 35324 * 100 = 90.54 %
+  Label accuracy score:       32963 / 35324 * 100 = 93.32 %
+Performance of Stackproj:
+  Labeled   attachment score: 31337 / 35324 * 100 = 88.71 %
+  Unlabeled attachment score: 31984 / 35324 * 100 = 90.54 %
+  Label accuracy score:       32974 / 35324 * 100 = 93.35 %
