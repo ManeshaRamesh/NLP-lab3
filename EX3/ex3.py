@@ -46,9 +46,9 @@ def parse2(file_in, file_out):
 
 #Default values
 print('''
-a) Default values:
- Where tag-order=2, emission order = 2,suffix length = 10, rare frequency = 10
-'''); 
+Converting the train and dev files to hunpos...
+Extracting the words from the dev file...
+''')
 parse("../en-universal-train.conll", "en-universal-train.hunpos");
 parse("../en-universal-dev.conll", "en-universal-dev.hunpos");
 parse2("../en-universal-dev.conll", "en-universal-dev.words");
@@ -62,19 +62,19 @@ def run_commands(tag, emission, suff_len, rare_freq):
 
 #print("DIFFERENT TAG VALUESI\n");
 #different tag values
-#run_commands(1,2,10,10);
-#run_commands(2,2,10,10);
-#run_commands(3,2,10,10);
-#run_commands(4,2,10,10);
-#run_commands(5,2,10,10);
+run_commands(1,2,10,10);
+run_commands(2,2,10,10);
+run_commands(3,2,10,10);
+run_commands(4,2,10,10);
+run_commands(5,2,10,10);
 
 #diffrent emission values
-#print("DIFFERENT EMISSION VALUES\n");
-#run_commands(2,1,10,10);
-#run_commands(2,2,10,10);
-#run_commands(2,3,10,10);
-#run_commands(2,4,10,10);
-#run_commands(2,5,10,10);
+print("DIFFERENT EMISSION VALUES\n");
+run_commands(2,1,10,10);
+run_commands(2,2,10,10);
+run_commands(2,3,10,10);
+run_commands(2,4,10,10);
+run_commands(2,5,10,10);
 print("DIFFERENT SUFFIX LENGTH\n"); 
 run_commands(2,2,8,10);
 run_commands(2,2,9,10);
